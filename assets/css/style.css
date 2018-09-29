@@ -1,0 +1,56 @@
+body{
+    background-color: #cccccc;
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+p{
+    margin-left:10px;
+}
+
+h2{
+    color: #4aaaa5;
+}
+
+header{
+    background-color:#ffffff;
+    height: 85px;
+}
+
+#footerbar{
+    color: #fff;
+    background-color: #777;
+    border-color: #4aaaa5;
+    font-size: 15px;
+    border-top: 5px solid #4aaaa5;
+}
+
+#nameplate{
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 30px;
+    height: 85px;
+}
+
+#content-box{
+    background-color: #fff;
+    padding: 10px;
+}
+
+/*prof-pic{
+    width: 23%; 
+    height: auto;
+}*/
+
+.port-label{
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-top: -50px;
+    z-index:2
+}
+
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
