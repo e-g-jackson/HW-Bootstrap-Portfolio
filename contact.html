@@ -7,34 +7,63 @@
     </head>
     <body>
 <!--Header-->
-        <header class="navbar fixed-top container-fluid">
-            <div class="row">
+<header class="navbar fixed-top container-fluid">
+        <div class="row">
 
-                <div class="col-2 col-md-2 col-xs-hidden"></div>
+            <div class="col-2 col-xl-2 col-lg-2 col-md-2 col-s-hidden col-xs-hidden"></div>
 
-                <div class="navbar-brand col-2 col-md-2 col-xs-4 text-center container-fluid" id="nameplate">
-                    <br>
-                    Erik Jackson
-                </div>
-
-                <div class="col-4 col-md-4 col-xs-4 h-100"></div>
-                
-                <div class="nav navbar-nav navbar-link col-2 col-md-2 col-xs-4 h-100 d-inline-flex">    
-                    <br>
-                    <a href="index.html">Profile</a>
-                    |
-                    <a href="portfolio.html">Portfolio</a>
-                    |
-                    <a href="#">Contact</a>
-                </div>
-                
-                <div class="col-2 col-md-2 col-xs-hidden"></div>
-                
+            <div class="navbar-brand col-2 col-xl-2 col-lg-2 col-md-2 col-s-4 col-xs-4 text-center container-fluid" id="nameplate">
+                <br>
+                Erik Jackson
             </div>
-        </header>
+
+            <div class="col-3 col-xl-3 col-lg-3 col-md-3 col-s-hidden col-xs-hidden"></div>
+            
+            <div class="nav navbar-nav navbar-link pull-right col-3 col-xl-3 col-lg-3 col-md-3 col-s-8 col-xs-8">    
+                <br>
+                <a href="index.html">Profile</a>
+                |
+                <a href="portfolio.html">Portfolio</a>
+                |
+                <a href="#">Contact</a>
+            </div>
+            
+            <div class="col-2 col-xl-2 col-lg-2 col-md-2 col-s-hidden col-xs-hidden"></div>
+            
+        </div>
+    </header>
 
 <!--Content-->
-        
+        <div class="row">
+            <div class="col-2 col-xl-2 col-lg-2 col-md-2 col-s-1 col-xs-hidden"></div>
+            <div class="col-8 col-xl-8 col-lg-8 col-md-8 col-s-10 col-xs-12">    
+                <div class="container-fluid">
+                    <div id="content-box">
+                        <div class="page-header">
+                            <h2>Contact Me!</h2>
+                        </div>
+                        <!--Text Input-->
+                        <div class="form-group">
+                            <label for="usr">Name:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                                <label for="usr">Password:</label>
+                                <input type="password" class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-lg button-success">
+                            Submit!
+                        </button>
+                    </div>
+                </div>
+                <div class="col-2 col-xl-2 col-lg-2 col-md-2 col-s-1 col-xs-hidden"></div>
+            </div>
+        </div>
         <footer class="navbar navbar-fixed-bottom text-center" id="footerbar">
                 <div class="col-5 col-xs-5"></div>
                 <div class="col-2 col-xs-2 navbar-text fixed-bottom">Copyright &copy</div>
